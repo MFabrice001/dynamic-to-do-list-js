@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (taskText === "") {
             alert("Please enter a task");
             return;
-        }   
+        }
 
         const li = document.createElement('li');
         li.textContent = taskText;
@@ -36,6 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
 
 
 /*document.addEventListener('DOMContentLoaded', function() {
